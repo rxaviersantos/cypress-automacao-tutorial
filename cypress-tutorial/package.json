@@ -14,5 +14,6 @@
   "author": "Rodrigo Xavier",
   "license": "ISC",
   "devDependencies": {
+    "cypress": "^12.12.0"
   }
 }
