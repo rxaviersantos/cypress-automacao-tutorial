@@ -12,5 +12,7 @@
     "Tutorial"
   ],
   "author": "Rodrigo Xavier",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+  }
 }
