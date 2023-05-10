@@ -31,7 +31,7 @@ A automação de teste é uma maneira de verificar e validar cenários de teste 
 > A imagem abaixo representa a final package.json arquivo assim que o usuário preencher os detalhes.
 > 
 <p align="center">
-  <img alt="projeto tipo de botões" src="https://github.com/rxaviersantos/cypress-automacao-tutorial/assets/85380530/50898043-2c6f-4bfe-9015-052d26c3db46" " height="300px" width="420px"> </p>
+  <img alt="Print do arquivo package.json" src="https://github.com/rxaviersantos/cypress-automacao-tutorial/assets/85380530/50898043-2c6f-4bfe-9015-052d26c3db46" " height="400px" width="620px"> </p>
 
 
 > Feito, execute o comando abaixo para instalar o Cypress.
@@ -94,11 +94,13 @@ cypress.json file
 package.json file
 package-lock.json file.
 ```
-Para criar seus testes, navegue até a pasta *cypress* / *integration* e crie uma nova pasta nova ( por exemplo: *script*).
-Dentro da pasta *cypress-tutorial*, crie o arquivo de teste ( ex: firsttest.spec.js) usando o código abaixo:
+Para criar seus testes, navegue até a pasta ```cypress / integration``` e crie uma pasta nova ( por exemplo: ```script```).
+Dentro da pasta ```script```, crie o arquivo de teste ( ex: ```firsttest.cy.js```) usando o código abaixo:
+
+*Observação:( a partir da versão 10 do Cypress algumas pastas e arquivos tiveram alterações de nomes. Uma delas foi a pasta ```integration```. Agora as suas specs ficarão na pasta ```e2e```, não havendo necessidade de criar a pasta integration).*
 
 ```spec
-//firsttest.spec.js
+//firsttest.cy.js
 
 describe('Meu Primeiro Test', () => {
 
@@ -106,7 +108,7 @@ describe('Meu Primeiro Test', () => {
 
         cy.visit('https://www.browserstack.com/');
 
-        cy.title().should('eq', 'Aplicativo mais confiável e plataforma de teste entre navegadores | BrowserStack')
+        cy.title().should('eq', 'Most Reliable App & Cross Browser Testing Platform | BrowserStack')
 
     })
 
@@ -125,14 +127,37 @@ No terminal ou na linha de comando do *Visual Studio Code*, execute o comando no
 ```bash
 npx cypress open
 ```
-O comando acima abre o Cypress Test Runner. Escolha o arquivo de teste recém-criado. Clique no arquivo firsttest.spec.js na pasta *script* para executar os testes.
+O comando acima abre o Cypress Test Runner. Escolha o arquivo de teste recém-criado. Clique no arquivo ```firsttest.cy.js``` na pasta ```script``` para executar os testes.
 
+<p align="center">
+  <img alt="Print da tela de teste" src="https://github.com/rxaviersantos/cypress-automacao-tutorial/assets/85380530/9a2d53e5-49ac-4e26-9ba7-d1b880bf0e2a" " height="600px" width="920px"> </p>
+  
+Resultado do teste
 
+<p align="center">
+  <img alt="Print do resultado do teste" src="https://github.com/rxaviersantos/cypress-automacao-tutorial/assets/85380530/e3b7ba1a-312c-400b-8577-e229d5f3a5b3" "height="600px" width="920px"> </p>
+  
+2. *Executando testes do Cypress usando a linha de comando*
 
+Syntax: Execute firsttest.cy.js usando o comando abaixo:
 
+```bash
+npx cypress run --spec "./cypress/e2e/script/firsttest.cy.js"
+```
+O comando acima executa testes no modo headless, portanto, não veremos nenhuma inicialização do navegador ou execução de testes, tudo isso acontecendo em segundo plano.
 
+Resultado da Execução do Cypress CLI
+                                                           
+<p align="center">
+  <img alt="Print do resultado do teste" src="https://github.com/rxaviersantos/cypress-automacao-tutorial/assets/85380530/cf37e73c-f42d-473f-a3e6-e49f1e5d8ab2" "height="600px" width="920px"> </p>
 
+Relatório da linha de comando do Cypress
 
+<p align="center">
+  <img alt="Print do resultado do teste" src="https://github.com/rxaviersantos/cypress-automacao-tutorial/assets/85380530/867c729f-b3cb-4838-a53b-580c3816f02f" "height="600px" width="920px"> </p>
 
-
+-------
+<p align="center">
+ Olá, sinta-se à vontade para mostrar apoio e dar a este repo<img src="https://img.icons8.com/fluency/20/null/star.png"/>estrela! Significa muito, obrigado :) 
+</p>
 
