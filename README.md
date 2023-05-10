@@ -1,4 +1,4 @@
-<h1 align="center"> Cypress automação tutorial </h1>
+<h1 align="center"> Cypress automação tutorial</h1>
 
 <p align="center">
 A automação de teste é uma maneira de verificar e validar cenários de teste através de ferramentas e estruturas específicas.  Automação de teste é recomendado para cenários repetitivos, pois economiza tempo e esforço que, de outra forma, teriam que ser investidos por testadores humanos. 
@@ -7,7 +7,8 @@ A automação de teste é uma maneira de verificar e validar cenários de teste 
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg">
 </p>
 
-# O que é o Cypress Framework?
+# <img width="58" height="58" src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/external-cypress-gardening-flaticons-lineal-color-flat-icons.png" alt="external-cypress-gardening-flaticons-lineal-color-flat-icons"/> O que é o Cypress Framework 
+
 É uma ferramenta de automação moderna baseada em NodeJS que suporta JavaScript / Texto datilografia como a linguagem de programação. Existem muitos vantagens e desvantagens de Cypress. No entanto, apesar de sua recência, é a ferramenta mais popular e fácil de usar no mundo da automação, tornando-se rapidamente a favorita dos desenvolvedores e testadores. 
 
 # Guia de instalação do cypress
@@ -102,7 +103,7 @@ Dentro da pasta ```script```, crie o arquivo de teste ( ex: ```firsttest.cy.js``
 ```spec
 //firsttest.cy.js
 
-describe('Meu Primeiro Test', () => {
+describe('Meu Primeiro Teste', () => {
 
     it('Inicie o navegador e navegue', () => {
 
