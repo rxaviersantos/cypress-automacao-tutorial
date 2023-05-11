@@ -63,7 +63,7 @@ Etapa 2: Dentro da pasta de *cypress-tutorial*, abra o terminal ou o prompt de c
 
 Etapa 3: Digite o comando:  
  ```bash 
- npm install cypress –save-dev
+ npm install cypress –-save-dev
  ```
 
 Etapa 4: Depois que a instalação estiver concluída, insira o comando: 
@@ -156,6 +156,15 @@ Relatório da linha de comando do Cypress
 
 <p align="center">
   <img alt="Print do resultado do teste" src="https://github.com/rxaviersantos/cypress-automacao-tutorial/assets/85380530/867c729f-b3cb-4838-a53b-580c3816f02f" "height="600px" width="920px"> </p>
+  
+  
+## Screenshots
+
+<p align="center">
+  <img alt="Gif - resultado do teste" src="https://via.placeholder.com/468x300?text=App+Screenshot+Here" "height="600px" width="920px"> </p>
+  
+
+
 
 -------
 <p align="center">
