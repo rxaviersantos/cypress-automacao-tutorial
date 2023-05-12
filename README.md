@@ -66,11 +66,11 @@ Etapa 3: Digite o comando:
  npm install cypress –-save-dev
  ```
 
-Etapa 4: Depois que a instalação estiver concluída, insira o comando: 
+Etapa 4: Depois que a instalação estiver concluída, insira o comando abaixo:
+
 ```bash
 npx cypress open
 ```
-
 O comando  ```npx cypress open``` prepara o Cypress pela primeira vez e lança os corredores de teste do Cypress, onde podemos ver exemplos de testes e brincar com eles.
 
 ### Compreendendo estruturas de pastas no Cypress
@@ -87,14 +87,19 @@ Por padrão, o Cypress vem com uma estrutura de pastas. A pasta principal é cyp
 >
 > ```Assets:``` Uma pasta chamada downloads será criada após a execução do teste, incluindo capturas de tela, vídeos etc.
 
-### Estrutura de pasta do projeto com Cypress
+#### A pasta *cypress-tutorial* contém
 ```
-node_modules folder
-cypress folder
-cypress.json file
-package.json file
-package-lock.json file.
+1. cypress folder
+2. node_modules folder
+3. cypress.config.js file
+4. package-lock.json file
+5. package.json file
 ```
+
+### Escrevendo o caso de teste com Cypress 
+
+Caso o usuário tenha executado o comando  ```npx cypress open``` e o sistema lançado os corredores de teste do Cypress, o usuário poderá deletar as duas pastas de teste criadas automaticamente, assim poderá dar início a criação de seus testes.
+
 Para criar seus testes, navegue até a pasta ```cypress / integration``` e crie uma pasta nova ( por exemplo: ```script```).
 Dentro da pasta ```script```, crie o arquivo de teste ( ex: ```firsttest.cy.js```) usando o código abaixo:
 
@@ -160,10 +165,10 @@ Relatório da linha de comando do Cypress
   
 ## Screenshots
 
-<p align="center">
-  <img alt="Gif - resultado do teste" src="https://via.placeholder.com/468x300?text=App+Screenshot+Here" "height="600px" width="920px"> </p>
-  
+<video src="" controls="controls" style="width: 730px;">
+</video>
 
+                                                                                
 
 
 -------
