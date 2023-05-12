@@ -165,11 +165,10 @@ Relatório da linha de comando do Cypress
   
 ## Screenshots
 
-<video src="" controls="controls" style="width: 730px;">
-</video>
-
-                                                                                
-
+Executando teste automatizado com Cypress 
+<p align="center">
+  <img alt="Print do resultado do teste" src="https://github.com/rxaviersantos/cypress-automacao-tutorial/assets/85380530/0ab8c8bb-a384-4ff7-be13-f9a39926bb8b" "height="700px" width="1020px"> </p>
+               
 
 -------
 <p align="center">
